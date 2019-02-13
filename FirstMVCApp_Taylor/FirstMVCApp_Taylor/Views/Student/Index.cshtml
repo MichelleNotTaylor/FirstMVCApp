@@ -1,0 +1,34 @@
+﻿@model FirstMVCApp_Taylor.Models.StudentModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <div>
+            @Html.LabelFor(m => m.FirstName)
+            @Html.DisplayFor(m => m.FirstName)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.LastName)
+            @Html.DisplayFor(m => m.LastName)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Gender)
+            @Html.DisplayFor(m => m.Gender)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Age)
+            @Html.DisplayFor(m => m.Age)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Major)
+            @Html.DisplayFor(m => m.Major)
+        </div>
+    </div>
+</body>
+</html>

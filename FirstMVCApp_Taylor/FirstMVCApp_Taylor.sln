@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstMVCApp_Taylor", "FirstMVCApp_Taylor\FirstMVCApp_Taylor.csproj", "{9B235D56-8E4E-4391-BAD5-087CE2E2F8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp.Shared", "FirstApp.Shared\FirstApp.Shared.csproj", "{4DEDBF91-18EE-4DCD-9C17-D1539FB0A28E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B235D56-8E4E-4391-BAD5-087CE2E2F8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B235D56-8E4E-4391-BAD5-087CE2E2F8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B235D56-8E4E-4391-BAD5-087CE2E2F8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B235D56-8E4E-4391-BAD5-087CE2E2F8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEDBF91-18EE-4DCD-9C17-D1539FB0A28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEDBF91-18EE-4DCD-9C17-D1539FB0A28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEDBF91-18EE-4DCD-9C17-D1539FB0A28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEDBF91-18EE-4DCD-9C17-D1539FB0A28E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B1123EF-8C48-4A09-9E27-873C74CB059C}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Week2MVCApplication
+namespace FirstMVCApp
 {
     public class RouteConfig
     {
@@ -16,7 +12,7 @@ namespace Week2MVCApplication
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Student", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Course", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

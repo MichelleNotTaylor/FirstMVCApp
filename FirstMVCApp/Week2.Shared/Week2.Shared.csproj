@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E8AAE92-E386-4EE4-BB83-F310A3481838}</ProjectGuid>
+    <ProjectGuid>{3BB955CA-03D1-4365-BBBF-EE166DAF2CFF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Week2.Shared</RootNamespace>
@@ -41,11 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\GenderEnum.cs" />
-    <Compile Include="Orchestrators\Interfaces\IStudentOrchestrator.cs" />
-    <Compile Include="Orchestrators\StudentOrchestrator.cs" />
+    <Compile Include="Enums\SemesterEnum.cs" />
+    <Compile Include="Orchestrators\CourseOrchestrator.cs" />
+    <Compile Include="Orchestrators\Interfaces\ICourseOrchestrator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\StudentViewModel.cs" />
+    <Compile Include="ViewModels\CourseViewModel.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
